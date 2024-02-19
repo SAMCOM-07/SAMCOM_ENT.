@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    background-color: green;
+    background-repeat: no-repeat;
+    padding-bottom: 100%;
+}
+.header{
+    background: beige;
+    border-bottom: 2px solid black;
+    height: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.buttons{
+    margin-right: 100px;
+   }
+.login-box, .signup-box{
+   width: 120px;
+   height: 30px;
+   margin-right: 10px;
+   border: none;
+   border-radius: 5px;
+   background-color: rgb(224, 224, 210);
+   font-weight: bold;
+   font-size: 16px;
+   cursor: pointer;
+}
+.signup-box{
+    background-color: yellow;
+}
+.login-box:hover, .signup-box:hover{
+    opacity: 0.7;
+    transition: 0.2s all ease;
+}
+.login-box:active, .signup-box:active{
+    transform: scale(0.9);
+    opacity: 100;
+}
+.section{
+    margin: auto;
+}
+.image1{
+    display: block;
+    margin: auto;
+}

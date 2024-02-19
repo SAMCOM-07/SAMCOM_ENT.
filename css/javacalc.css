@@ -1,0 +1,58 @@
+/*button{
+  background-color: yellow;
+  width: 10%;
+  font-weight: bold;
+}*/
+
+.calc{
+  background-color: green;
+  padding: 10px;
+  width: 220px;
+}
+button{
+  border: 2px solid ;
+  border-radius: 5px;
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+
+body, html{
+  background-color: lightgreen;
+  margin: auto;
+  padding-left:60px;
+  padding-top: 100px;    
+}
+.container{
+  width: 220px;
+  height: 300px;
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+}
+button{
+  width: 40px;
+  height: 40px;
+  border: 2px solid;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 17px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.mini{
+  text-align: center;
+  color: green;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: 'arial black';
+  background-color: #ff742b;
+  margin-top: 20px;
+  border-radius: 0px 0px 10px 10px;
+}
+

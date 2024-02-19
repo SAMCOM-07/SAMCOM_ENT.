@@ -1,0 +1,100 @@
+html,body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background-color: #f2f2f2;
+
+}
+.wrapper{
+    background-color: white;
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+}
+.title{
+    line-height: 100px;
+    background: linear-gradient(-115deg, #be0d75,#233cb9);
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+    border-radius: 15px 15px 0px 0px;
+}
+form{
+    padding: 10px 30px 50px 30px;
+    
+}
+.field{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+input{
+    height: 40px;
+    width: 90%;
+    border-radius: 25px;
+    padding-left: 20px;
+    border: 1px solid lightgrey;
+    outline: none;
+    font-size: 15px;
+    color: rgb(212, 72, 212);
+    font-family: 'Tahoma';
+    
+}
+label{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20px;
+    pointer-events: none;
+    transition: all 0.5s ease;
+    color: rgb(209, 196, 196);
+    font-family: 'Century Gothic';
+    font-size: 15px;
+}
+input[type=submit]{
+    border:none;
+    border-radius: 50px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    background: linear-gradient(-115deg, #be0d75,#233cb9);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+input[type=submit]:active{
+    transform: scale(0.95);
+}
+input:focus ~ label, :valid ~ label{
+    top: 0%;
+    transform: translateY(-50%);
+    color: rgb(134, 146, 212);
+    background-color: white;
+}
+input:focus,:valid{
+    border-width: 2px;
+    border-color: rgb(206, 202, 202);
+}
+.pass-link{
+    margin: 10px 0px 0px 10px;
+    
+}
+.signup-link{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+    font-family: 'arial';
+}
+.pass-link a, .signup-link a{
+    color: rgb(110, 110, 204);
+    font-family: 'century gothic';
+    text-decoration: none;
+}
+.pass-link a:hover, .signup-link a:hover{
+    text-decoration: underline;
+}

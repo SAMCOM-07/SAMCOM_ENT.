@@ -1,0 +1,44 @@
+html, body{
+    background-color: lightgreen;
+    padding: 10px;
+}
+.sam1{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+    border: none;
+}
+
+.profile-pics{
+    width: 40px;
+    border-radius: 50px;
+}
+
+.profile{
+    width: 50px;
+    vertical-align: top;
+}
+
+.all-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 40px;
+}
+
+.para-info{
+    width: 250px;
+}
+
+.sam-row{
+    margin-bottom: 12px;
+}
+
+p{
+    margin: 0px;
+}
+
+.brown{
+    margin-bottom: 4px;
+}

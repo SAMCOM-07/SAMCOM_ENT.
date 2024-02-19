@@ -1,0 +1,91 @@
+body{
+    font-family: arial;
+    background-color: rgb(0, 0, 0);
+}
+.Prac-box{
+    width: 350px;
+    height: 800px;
+    background: linear-gradient(to bottom, white, green);
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 15px;
+    padding: 10px;
+}
+h1{
+    color: rgb(55, 196, 20);
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Lucida Sans';
+}
+h2{
+    font-size: 16px;
+    font-family: 'Century Gothic';
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Lucida Sans';
+}
+form{
+    font-size: 15px;
+    margin-left: 40px;
+}
+form label{
+    font-weight: bold;
+    display: flex;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    font-family: times new roman;
+}
+form input{
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid;
+    border-radius: 7px;
+    border-color: green;
+    border-right-style: ridge;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-bottom-style: ridge;
+    border-top-style: none;
+    border-left-style: none;
+    color: green;
+    font-size: 16px;
+    font-weight: bold;
+   
+    
+}
+input[type=submit]{
+    border: solid;
+    background-color: green;
+    border-color: white;
+    width: 50%;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    margin-left: 55px;
+    margin-top: 15px;
+    cursor: pointer;
+   
+}
+p{
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+.p3{
+    color: white;
+    margin-top: 7px;
+    font-size: 15px;
+}
+input[type=submit]:hover{
+    opacity: 0.5;
+    transition: 0.2s;
+}
+input[type=submit]:active{
+    color: green;
+    background-color: white;
+    border-color: rgb(7, 82, 7);
+    opacity: 100;
+    
+}

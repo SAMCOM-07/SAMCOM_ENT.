@@ -1,0 +1,91 @@
+html, body{
+    background-color: lightgreen;
+    height: 100%;
+    place-items: center;
+    display: grid;
+    font-family: 'Century Gothic';
+}
+.wrapper{
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+}
+.title{
+    line-height: 80px;
+    background-color: green;
+    border-radius: 10px 10px 0px 0px;
+    padding-left: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
+form{
+    padding: 10px 30px 50px 30px;
+}
+.field{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+input{
+    width: 93%;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding-left: 15px;
+    font-size: 16px;
+    outline: none;
+}
+input:focus{
+    border-width: 2px;
+    border-color: grey;
+}
+input[type=submit]{
+    background-color: green;
+    width: 100%;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+input[type=submit]:hover{
+    opacity: 0.7;
+}
+input[type=submit]:active{
+    transform: scale(0.9);
+    opacity: 100;
+}
+.signup-link{
+    margin-top: 20px;
+    text-align: center;
+}.pass-link, .rem{
+    font-size: 15px;
+    margin-top: 13px;
+}
+.pass-link{
+    margin-left: 20px;
+}
+.rem{
+    font-size: 15px;
+}
+.signup-link a, .pass-link a{
+    color: rgb(89, 89, 209);
+    text-decoration: none;
+}
+.signup-link a:hover, .pass-link a:hover{
+    text-decoration: underline;
+}
+.mark{
+    width: 15px;
+}
+.grid-box{
+    display: flex;
+    flex-direction: row;
+    column-gap: 7px;
+}
